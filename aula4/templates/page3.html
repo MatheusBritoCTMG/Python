@@ -1,0 +1,57 @@
+<!--Esse template herda no extends o layout.html
+ELe tem estruturas básicas de layout-->
+
+{% extends 'layout.html' %}
+
+
+{% block title %}
+
+Sobre ser estudante de TI
+
+
+
+{% endblock %}
+
+{% block content %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Expectativas</title>
+<link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+
+<header>
+<h1>Minhas Expectativas</h1>
+</header>
+
+<nav>
+<a href="index.html">Início</a>
+<a href="page1.html">Profissional</a>
+<a href="page2.html">Experiências</a>
+</nav>
+
+<main>
+<h2>Planos para o Futuro</h2>
+
+<p>
+Desejo concluir meus estudos,
+crescer profissionalmente
+e conquistar estabilidade financeira.
+</p>
+
+<p>
+Também quero continuar aprendendo
+novas tecnologias e evoluindo na área de TI.
+</p>
+</main>
+
+<footer>
+<p>Meu Futuro</p>
+</footer>
+
+</body>
+</html>
+{% endblock %}

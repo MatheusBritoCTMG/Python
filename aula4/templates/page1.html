@@ -1,0 +1,58 @@
+<!--Esse template herda no extends o layout.html
+ELe tem estruturas básicas de layout-->
+
+{% extends 'layout.html' %}
+
+
+{% block title %}
+
+Sobre a linguagem Python
+
+
+
+{% endblock %}
+
+{% block content %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Profissional</title>
+<link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+
+<header>
+<h1>Informações Profissionais</h1>
+</header>
+
+<nav>
+<a href="index.html">Início</a>
+<a href="page2.html">Experiências</a>
+<a href="page3.html">Expectativas</a>
+</nav>
+
+<main>
+<h2>Minha Formação</h2>
+
+<p>
+Estou estudando programação e tecnologia.
+Tenho interesse em desenvolvimento web.
+</p>
+
+<h2>Objetivos Profissionais</h2>
+
+<p>
+Quero trabalhar na área de TI e desenvolver
+sistemas e sites modernos.
+</p>
+</main>
+
+<footer>
+<p>Meu Portfólio</p>
+</footer>
+
+</body>
+</html>
+{% endblock %}

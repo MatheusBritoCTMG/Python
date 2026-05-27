@@ -1,0 +1,48 @@
+<!--Esse template herda no extends o layout.html
+ELe tem estruturas básicas de layout-->
+
+{% extends 'layout.html' %}
+
+
+{% block title %}
+
+
+Index
+
+
+
+{% endblock %}
+
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <h1>Bem-vindo ao meu site</h1>
+</header>
+
+<nav>
+<a href="page1.html">Profissional</a>
+<a href="page2.html">Experiências</a>
+<a href="page3.html">Expectativas</a>
+</nav>
+
+<main>
+<h2>Sobre mim</h2>
+<p>Meu nome é Matheus Brito</p>
+
+<h3>O que gosto de fazer</h3>
+<p>Gosto de estudar, ouvir música, programar...</p>
+</main>
+</body>
+</html>
+
+
+
+
+{% endblock %}

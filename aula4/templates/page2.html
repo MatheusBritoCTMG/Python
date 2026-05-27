@@ -1,0 +1,60 @@
+<!--Esse template herda no extends o layout.html
+ELe tem estruturas básicas de layout-->
+
+{% extends 'layout.html' %}
+
+
+{% block title %}
+
+Sobre o Flask
+
+
+
+{% endblock %}
+
+{% block content %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Experiências</title>
+<link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+
+<header>
+<h1>Matheus Brito - Minhas Experiências</h1>
+</header>
+
+<nav>
+<a href="index.html">Início</a>
+<a href="page1.html">Profissional</a>
+<a href="page3.html">Expectativas</a>
+</nav>
+
+<main>
+<h2>Experiência Acadêmica</h2>
+<h3>Ensino Médio - Em andamento</h3>
+<p>
+Participei de atividades e projetos
+relacionados à programação.
+</p>
+
+<h2>Habilidades</h2>
+
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>Python</li>
+<li>Lógica de Programação</li>
+</ul>
+</main>
+
+<footer>
+<p>Experiências e Conhecimentos</p>
+</footer>
+
+</body>
+</html>
+{% endblock %}

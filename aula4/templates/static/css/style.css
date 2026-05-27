@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    }
+    
+    header {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    }
+    
+    nav {
+    background-color: #444;
+    padding: 12px;
+    text-align: center;
+    }
+    
+    nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+    }
+    
+    nav a:hover {
+    color: yellow;
+    }
+    
+    main {
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 10px;
+    }
+    
+    footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    }
